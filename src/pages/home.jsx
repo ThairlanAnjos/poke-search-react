@@ -1,6 +1,6 @@
 import React from 'react';
 import Search from '../componets/Search';
-import { fetchPokemon } from '../services/getPokemon';
+import { fetchPokemon } from '../services/getPokemon.js';
 
 
 export default function HomePage(){

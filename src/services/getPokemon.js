@@ -3,7 +3,7 @@ const query = {
     pokemon: 'pokemon'
 }
 
-export async function fechPokemon (pokemon) {
+export async function fetchPokemon (pokemon) {
     console.log(`${baseUrl}/${query.pokemon}/${pokemon}`);
     return fetch(`${baseUrl}/${query.pokemon}/${pokemon}`);
 }
