@@ -1,7 +1,5 @@
-const baseUrl = 'https://pokeapi.co/api/v2/';
-const query = {
-    pokemon: 'pokemon'
-}
+const baseUrl = 'https://pokeapi.co/api/v2/pokemon/';
+const query = {pokemon: 'pokemon'}
 
 export async function fetchPokemon (pokemon) {
     console.log(`${baseUrl}/${query.pokemon}/${pokemon}`);

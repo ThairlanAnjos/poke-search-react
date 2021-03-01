@@ -1,5 +1,5 @@
 import React from 'react';
-import Search from '../componets/Search';
+import Search from '../components/Search';
 import { fetchPokemon } from '../services/getPokemon.js';
 
 
