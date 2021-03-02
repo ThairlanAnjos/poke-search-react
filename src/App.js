@@ -6,6 +6,7 @@ import "./App.css";
 //import HomePage from "./pages/home";
 //import { useEffect } from "react";
 
+
 const App = () => {
   const [pokemon, setPokemon] = useState("pikachu");
   const [pokemonData, setPokemonData] = useState([]);
@@ -38,7 +39,7 @@ const App = () => {
     <div className="App">
       <form onSubmit={handleSubmit}>
         <label>
-          <input
+         <input
             type="text"
             onChange={handleChange}
             placeholder="Enter Pokemon Name"

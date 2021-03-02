@@ -18,7 +18,6 @@ export default function Search(props){
                 <Col sm={2} className="my-1">
                     <Button block onClick={(e) => props.getPokemon(search)}>Search</Button>
                 </Col>
-
             </Form.Row>
         </Form>
     </Container>
